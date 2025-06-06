@@ -1,0 +1,39 @@
+.home-container {
+  text-align: center;
+  padding: 40px 16px 32px 16px;
+  background: linear-gradient(135deg, #7dd3fc 0%, #f472b6 100%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 2.3rem;
+  color: #0e7490;
+  text-shadow: 0 2px 8px #fff, 0 0 2px #fff;
+  margin-bottom: 32px;
+  font-weight: bold;
+}
+
+.add-btn {
+  margin-top: 28px;
+  padding: 14px 36px;
+  font-size: 1.1rem;
+  background: linear-gradient(90deg, #f472b6 60%, #38bdf8 100%);
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 30px;
+  box-shadow: 0 4px 16px #38bdf844;
+  font-weight: bold;
+  letter-spacing: 1px;
+  overflow: hidden;
+}
+
+.add-btn:hover {
+  background: linear-gradient(90deg, #0ea5e9 60%, #f472b6 100%);
+  box-shadow: 0 8px 24px #0ea5e955;
+  transform: scale(1.05);
+}

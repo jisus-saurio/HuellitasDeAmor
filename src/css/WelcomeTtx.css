@@ -1,0 +1,23 @@
+.welcome-text {
+  font-size: 2.7rem;
+  font-weight: bold;
+  text-align: center;
+  color: #f59e0b;
+  opacity: 1; /* Siempre visible */
+  transform: translateY(0); /* Sin desplazamiento inicial */
+  animation: fadeInText 2s ease-in-out forwards;
+  text-shadow: 0 2px 8px #fff, 0 0 2px #fff;
+  z-index: 3;
+  background: transparent;
+  position: relative;
+}
+
+.welcome-text span {
+  color: #ea580c;
+  text-shadow: 0 2px 8px #fff, 0 0 2px #fff;
+}
+
+@keyframes fadeInText {
+  0% { opacity: 0; transform: translateY(-20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
