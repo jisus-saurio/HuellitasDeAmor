@@ -1,12 +1,35 @@
-# React + Vite
+# Aplicación CRUD con React y Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descripción
 
-Currently, two official plugins are available:
+Esta es una aplicación CRUD (Crear, Leer, Actualizar, Eliminar) desarrollada utilizando **React** y **Vite**. La aplicación permite a los usuarios gestionar una lista de elementos de manera eficiente y rápida. Utiliza varias bibliotecas para facilitar la gestión de formularios, la navegación y las notificaciones.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tecnologías Utilizadas
 
-## Expanding the ESLint configuration
+- **React**: Biblioteca de JavaScript para construir interfaces de usuario.
+- **Vite**: Herramienta de construcción rápida para aplicaciones web modernas.
+- **react-hook-form**: Biblioteca para la gestión de formularios en React.
+- **react-router-dom**: Biblioteca para la navegación entre diferentes componentes en una aplicación React.
+- **react-hot-toast**: Biblioteca para mostrar notificaciones emergentes.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Instalación
+
+Para instalar las dependencias necesarias, sigue estos pasos:
+
+1. Crea un nuevo proyecto con Vite:
+
+2. Instala las bibliotecas:
+npm install react-hook-form
+npm install react-router-dom
+npm install react-hot-toast
+npm install
+
+3. Ejecucion:
+npm run dev
+
+Funcionalidades:
+Crear: Permite a los usuarios agregar nuevos elementos a la lista.
+Leer: Muestra la lista de elementos existentes.
+Actualizar: Permite a los usuarios editar elementos seleccionados.
+Eliminar: Permite a los usuarios eliminar elementos de la lista.
+
